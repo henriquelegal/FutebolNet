@@ -1,0 +1,110 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* ===== GLOBAL ===== */
+body {
+  background: #f3f4f6;
+  color: #222;
+}
+
+/* ===== HEADER ===== */
+.header {
+  background: #1a237e;
+  padding: 18px 28px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  background: #1a237e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #0d1654;
+}
+
+/* ===== CARD DE DISPOSITIVO ===== */
+.device-card {
+  background: white;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.device-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+.device-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.device-card p {
+  margin-bottom: 4px;
+  color: #444;
+}
+
+.status-online {
+  color: #0ea800;
+  font-weight: 700;
+}
+
+.status-offline {
+  color: #d00000;
+  font-weight: 700;
+}
+
+/* ===== FORM ===== */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
