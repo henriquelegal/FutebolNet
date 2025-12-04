@@ -1,7 +1,7 @@
 import "./Dashboard.css";
 
 export default function Dashboard() {
-  // Temporário: exemplo de dispositivos até ter o backend
+  
   const devices = [
     { id: 1, name: "Câmera Campo 1", ip: "192.168.1.10", status: "online", latency: 23 },
     { id: 2, name: "Tablet Comissão", ip: "192.168.1.45", status: "offline", latency: null },
