@@ -1,13 +1,18 @@
 FutebolNet Monitor – Sistema de Monitoramento de Dispositivos do Centro de Treinamento
 Descrição do Projeto
+-----------------------------
 
 O FutebolNet Monitor é um sistema desenvolvido para realizar o monitoramento de dispositivos utilizados em um Centro de Treinamento (CT) de futebol. O sistema permite cadastrar equipamentos, executar testes de conectividade (ping) e registrar o histórico de funcionamento, oferecendo uma visão clara e centralizada da disponibilidade dos dispositivos essenciais para as operações do clube.
 
 Este projeto integra conhecimentos de desenvolvimento web, redes de computadores, banco de dados e documentação técnica.
 
+-----------------------------
+
 Objetivo Geral
 
 Desenvolver uma plataforma web que possibilite o cadastro, o monitoramento e a análise histórica de dispositivos críticos do Centro de Treinamento, incluindo testes de conectividade e exibição de status em tempo real.
+
+-----------------------------
 
 Objetivos Específicos
 
@@ -21,13 +26,19 @@ Registrar e disponibilizar histórico de latência e status de cada dispositivo 
 
 Exibir em tempo real a disponibilidade dos dispositivos cadastrados.
 
+-----------------------------
+
 Problema
 
 O crescente uso de dispositivos tecnológicos no contexto profissional de clubes de futebol, como câmeras de análise, computadores técnicos, tablets e telões, exige que esses equipamentos estejam sempre disponíveis. Entretanto, a falta de um sistema centralizado de monitoramento dificulta identificar falhas rapidamente e pode gerar prejuízos operacionais durante treinos ou análises de desempenho.
 
+-----------------------------
+
 Hipótese
 
 A criação de um sistema unificado de inventário e testes de conectividade permitirá identificar falhas de forma rápida e eficiente, minimizando impactos nas atividades do Centro de Treinamento e garantindo maior confiabilidade operacional.
+
+-----------------------------
 
 Justificativa
 
@@ -35,25 +46,33 @@ A infraestrutura tecnológica é um componente fundamental no cotidiano esportiv
 
 Além disso, o projeto agrega valor acadêmico ao integrar conteúdos de redes de computadores, desenvolvimento backend, frontend e modelagem de dados.
 
+-----------------------------
+
 Metodologia
+
 Tecnologias Utilizadas
 
 Frontend:
-HTML, CSS e JavaScript (com possibilidade de expansão para React Web)
+HTML, CSS, JavaScript e React Web
+
+-----------------------------
 
 Backend:
 Node.js e Express
 Biblioteca Ping para testes de conectividade
 API REST com comunicação via JSON
 
+-----------------------------
+
 Banco de Dados:
 MySQL
 
-Testes:
-Postman para validação das rotas
+-----------------------------
 
 Organização e Versionamento:
 Git e GitHub para gerenciamento do código e histórico do projeto
+
+-----------------------------
 
 Etapas de Desenvolvimento
 
@@ -69,6 +88,8 @@ Testes e ajustes.
 
 Elaboração da documentação final.
 
+-----------------------------
+
 Funcionalidades Previstas
 Requisitos Obrigatórios
 
@@ -82,6 +103,8 @@ Registro de logs de testes.
 
 Consulta do histórico de testes via interface web.
 
+-----------------------------
+
 Requisitos Opcionais
 
 Alertas visuais para estados críticos.
@@ -90,14 +113,23 @@ Filtros por categoria de dispositivo.
 
 Exibição da última atualização realizada para cada dispositivo.
 
+-----------------------------
+
 Integrantes da Equipe
+-----------------------------
+
 Integrante	Função
 Bruno	Backend e banco de dados
+-----------------------------
 Eduardo	React Native e React Web
+-----------------------------
 Henrique	Documentação e testes
+-----------------------------
 Conclusão
 
 O FutebolNet Monitor fornece uma solução funcional para o monitoramento de dispositivos essenciais de um Centro de Treinamento esportivo, contribuindo para a prevenção de falhas e para a melhoria da eficiência operacional. A integração entre inventário, testes de conectividade e registro de histórico cria uma ferramenta prática para uso real e também didática para fins acadêmicos. O projeto demonstra como sistemas simples e bem estruturados podem apoiar processos críticos e otimizar o uso da tecnologia no ambiente esportivo.
+
+-----------------------------
 
 Referências
 
