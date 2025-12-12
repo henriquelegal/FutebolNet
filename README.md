@@ -130,6 +130,61 @@ Conclusão
 O FutebolNet Monitor fornece uma solução funcional para o monitoramento de dispositivos essenciais de um Centro de Treinamento esportivo, contribuindo para a prevenção de falhas e para a melhoria da eficiência operacional. A integração entre inventário, testes de conectividade e registro de histórico cria uma ferramenta prática para uso real e também didática para fins acadêmicos. O projeto demonstra como sistemas simples e bem estruturados podem apoiar processos críticos e otimizar o uso da tecnologia no ambiente esportivo.
 
 -----------------------------
+Como Usar o FutebolNet Monitor
+
+Esta seção descreve como utilizar o sistema FutebolNet Monitor após sua instalação e execução. As instruções cobrem o fluxo completo: acesso, cadastro, monitoramento e consulta de histórico.
+
+ Acessando o Sistema
+
+Certifique-se de que o servidor backend (Node.js + Express) está em execução.
+
+Abra o navegador e acesse o endereço onde o frontend está hospedado, por exemplo:
+
+http://localhost:3000
+
+
+Você será direcionado para a página principal do sistema, onde estão listados todos os dispositivos cadastrados.
+
+ Cadastrar um Novo Dispositivo
+
+Na página inicial, clique no botão “Cadastrar Dispositivo”.
+
+Preencha os campos:
+
+Nome do dispositivo
+
+Endereço IP
+
+Categoria (opcional)
+
+Clique em Salvar.
+
+O novo dispositivo será adicionado automaticamente à lista e estará pronto para monitoramento.
+
+ Visualizar o Status dos Dispositivos
+
+Na tela inicial, cada dispositivo possui um cartão com informações importantes:
+
+Nome do dispositivo
+
+Endereço IP
+
+Status atual (Online / Offline)
+
+Latência do último teste
+
+Última atualização realizada
+
+O status é atualizado periodicamente pela API, permitindo acompanhar mudanças em tempo real.
+
+ Testar Conectividade (Ping)
+
+Localize o dispositivo desejado.
+
+Data e hora do teste
+
+Um novo registro será gravado automaticamente no banco de dados.
+
 
 Imagens do projeto
 
