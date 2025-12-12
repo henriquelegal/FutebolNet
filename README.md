@@ -1,124 +1,112 @@
-FutebolNet Monitor
-
-Sistema de Monitoramento de Dispositivos do Centro de Treinamento
-
+FutebolNet Monitor – Sistema de Monitoramento de Dispositivos do Centro de Treinamento
 Descrição do Projeto
 
-O FutebolNet Monitor é um sistema desenvolvido para monitorar dispositivos utilizados em um Centro de Treinamento (CT) de futebol. A aplicação permite cadastrar equipamentos, realizar testes de conectividade (ping) e registrar o histórico de funcionamento, garantindo maior controle e disponibilidade dos dispositivos essenciais às operações do clube.
+O FutebolNet Monitor é um sistema desenvolvido para realizar o monitoramento de dispositivos utilizados em um Centro de Treinamento (CT) de futebol. O sistema permite cadastrar equipamentos, executar testes de conectividade (ping) e registrar o histórico de funcionamento, oferecendo uma visão clara e centralizada da disponibilidade dos dispositivos essenciais para as operações do clube.
 
-Este repositório reúne o backend, frontend, documentação técnica e demais recursos utilizados no desenvolvimento do projeto.
+Este projeto integra conhecimentos de desenvolvimento web, redes de computadores, banco de dados e documentação técnica.
 
 Objetivo Geral
 
-Desenvolver uma plataforma web que permita o cadastro, o monitoramento e a análise histórica de dispositivos críticos do Centro de Treinamento, incluindo testes de conectividade e exibição de status em tempo real.
+Desenvolver uma plataforma web que possibilite o cadastro, o monitoramento e a análise histórica de dispositivos críticos do Centro de Treinamento, incluindo testes de conectividade e exibição de status em tempo real.
 
 Objetivos Específicos
 
-Criar uma API REST para execução de testes de conectividade (ping) e registro de logs.
+Implementar uma API REST capaz de executar testes de conectividade (ping) e registrar logs das operações.
 
-Desenvolver uma interface web para cadastro, consulta e teste de dispositivos.
+Desenvolver uma interface web para consulta, cadastro e teste de dispositivos.
 
-Armazenar dispositivos e registros de testes em um banco de dados MySQL.
+Integrar um banco de dados MySQL para armazenamento de dispositivos e registros de testes.
 
-Registrar e apresentar histórico de latência e status por dispositivo.
+Registrar e disponibilizar histórico de latência e status de cada dispositivo monitorado.
 
-Atualizar em tempo real a disponibilidade dos dispositivos monitorados.
+Exibir em tempo real a disponibilidade dos dispositivos cadastrados.
 
 Problema
 
-A falta de monitoramento centralizado de dispositivos como câmeras, computadores, tablets e telões dificulta a identificação rápida de falhas, podendo prejudicar treinos e processos internos relacionados ao desempenho esportivo.
+O crescente uso de dispositivos tecnológicos no contexto profissional de clubes de futebol, como câmeras de análise, computadores técnicos, tablets e telões, exige que esses equipamentos estejam sempre disponíveis. Entretanto, a falta de um sistema centralizado de monitoramento dificulta identificar falhas rapidamente e pode gerar prejuízos operacionais durante treinos ou análises de desempenho.
 
 Hipótese
 
-A criação de um sistema simples e integrado de inventário e testes de conectividade permitirá a rápida identificação de falhas e a prevenção de problemas que possam impactar as atividades do Centro de Treinamento.
+A criação de um sistema unificado de inventário e testes de conectividade permitirá identificar falhas de forma rápida e eficiente, minimizando impactos nas atividades do Centro de Treinamento e garantindo maior confiabilidade operacional.
 
 Justificativa
 
-O uso crescente de tecnologias em clubes de futebol demanda soluções que garantam disponibilidade e funcionamento adequado dos dispositivos. O FutebolNet Monitor oferece uma solução prática e eficaz para acompanhar o estado dos equipamentos, além de servir como ferramenta educacional para integrar conhecimentos de redes, backend, frontend e banco de dados.
+A infraestrutura tecnológica é um componente fundamental no cotidiano esportivo moderno. A ausência de uma ferramenta simples e centralizada para monitoramento pode resultar em interrupções operacionais significativas. O FutebolNet Monitor surge como uma solução prática, educacional e funcional, permitindo visualizar o estado dos dispositivos e registrando informações relevantes sobre seu desempenho ao longo do tempo.
+
+Além disso, o projeto agrega valor acadêmico ao integrar conteúdos de redes de computadores, desenvolvimento backend, frontend e modelagem de dados.
 
 Metodologia
 Tecnologias Utilizadas
 
 Frontend:
-
-HTML
-
-CSS
-
-JavaScript
+HTML, CSS e JavaScript (com possibilidade de expansão para React Web)
 
 Backend:
-
-Node.js
-
-Express
-
-Biblioteca Ping (NPM)
-
-API REST com comunicação JSON
+Node.js e Express
+Biblioteca Ping para testes de conectividade
+API REST com comunicação via JSON
 
 Banco de Dados:
-
 MySQL
 
-Ferramentas de Teste e Documentação:
+Testes:
+Postman para validação das rotas
 
-Postman
+Organização e Versionamento:
+Git e GitHub para gerenciamento do código e histórico do projeto
 
-Git e GitHub
+Etapas de Desenvolvimento
 
-Etapas do Desenvolvimento
-
-Modelagem do banco de dados e definição da arquitetura.
+Modelagem do banco de dados e definição da arquitetura do sistema.
 
 Construção da API REST e implementação das rotas.
 
 Desenvolvimento da interface web.
 
-Integração entre frontend e backend.
+Integração entre backend e frontend.
 
-Testes e otimizações.
+Testes e ajustes.
 
-Documentação final do projeto.
+Elaboração da documentação final.
 
-Funcionalidades
+Funcionalidades Previstas
 Requisitos Obrigatórios
 
 Cadastro de dispositivos.
 
-Listagem de dispositivos com status atualizado.
+Listagem de dispositivos com exibição de status atualizado.
 
-Teste de conectividade via ping (latência e online/offline).
+Teste de conectividade via ping (latência e indicador online/offline).
 
-Armazenamento de logs de testes.
+Registro de logs de testes.
 
-Consulta de histórico pela interface web.
+Consulta do histórico de testes via interface web.
 
 Requisitos Opcionais
 
-Alertas visuais avançados.
+Alertas visuais para estados críticos.
 
-Filtros por tipo de dispositivo.
+Filtros por categoria de dispositivo.
 
-Indicação de última atualização de cada dispositivo.
+Exibição da última atualização realizada para cada dispositivo.
 
 Integrantes da Equipe
-Nome	Função
+Integrante	Função
 Bruno	Backend e banco de dados
 Eduardo	React Native e React Web
 Henrique	Documentação e testes
 Conclusão
 
-O FutebolNet Monitor apresenta uma solução eficiente para o acompanhamento da disponibilidade de dispositivos essenciais em um Centro de Treinamento esportivo. Combinando funcionalidades de inventário, testes de conectividade e histórico de desempenho, o sistema melhora a confiabilidade operacional e possibilita resposta rápida a falhas. Além disso, o projeto cumpre papel educacional ao integrar práticas de desenvolvimento full stack com conceitos fundamentais de redes e bancos de dados.
+O FutebolNet Monitor fornece uma solução funcional para o monitoramento de dispositivos essenciais de um Centro de Treinamento esportivo, contribuindo para a prevenção de falhas e para a melhoria da eficiência operacional. A integração entre inventário, testes de conectividade e registro de histórico cria uma ferramenta prática para uso real e também didática para fins acadêmicos. O projeto demonstra como sistemas simples e bem estruturados podem apoiar processos críticos e otimizar o uso da tecnologia no ambiente esportivo.
 
 Referências
 
-Node.js – https://nodejs.org
+Node.js Documentation – https://nodejs.org
 
-Express.js – https://expressjs.com
+Express.js Documentation – https://expressjs.com
 
-Biblioteca Ping (NPM) – https://www.npmjs.com/package/ping
+NPM Ping Library – https://www.npmjs.com/package/ping
 
-MySQL Documentation – https://dev.mysql.com/doc
+MySQL Reference Manual – https://dev.mysql.com/doc
 
 MDN Web Docs – https://developer.mozilla.org
