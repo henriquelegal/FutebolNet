@@ -1,16 +1,124 @@
-# React + Vite
+FutebolNet Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de Monitoramento de Dispositivos do Centro de Treinamento
 
-Currently, two official plugins are available:
+Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O FutebolNet Monitor é um sistema desenvolvido para monitorar dispositivos utilizados em um Centro de Treinamento (CT) de futebol. A aplicação permite cadastrar equipamentos, realizar testes de conectividade (ping) e registrar o histórico de funcionamento, garantindo maior controle e disponibilidade dos dispositivos essenciais às operações do clube.
 
-## React Compiler
+Este repositório reúne o backend, frontend, documentação técnica e demais recursos utilizados no desenvolvimento do projeto.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Objetivo Geral
 
-## Expanding the ESLint configuration
+Desenvolver uma plataforma web que permita o cadastro, o monitoramento e a análise histórica de dispositivos críticos do Centro de Treinamento, incluindo testes de conectividade e exibição de status em tempo real.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Objetivos Específicos
+
+Criar uma API REST para execução de testes de conectividade (ping) e registro de logs.
+
+Desenvolver uma interface web para cadastro, consulta e teste de dispositivos.
+
+Armazenar dispositivos e registros de testes em um banco de dados MySQL.
+
+Registrar e apresentar histórico de latência e status por dispositivo.
+
+Atualizar em tempo real a disponibilidade dos dispositivos monitorados.
+
+Problema
+
+A falta de monitoramento centralizado de dispositivos como câmeras, computadores, tablets e telões dificulta a identificação rápida de falhas, podendo prejudicar treinos e processos internos relacionados ao desempenho esportivo.
+
+Hipótese
+
+A criação de um sistema simples e integrado de inventário e testes de conectividade permitirá a rápida identificação de falhas e a prevenção de problemas que possam impactar as atividades do Centro de Treinamento.
+
+Justificativa
+
+O uso crescente de tecnologias em clubes de futebol demanda soluções que garantam disponibilidade e funcionamento adequado dos dispositivos. O FutebolNet Monitor oferece uma solução prática e eficaz para acompanhar o estado dos equipamentos, além de servir como ferramenta educacional para integrar conhecimentos de redes, backend, frontend e banco de dados.
+
+Metodologia
+Tecnologias Utilizadas
+
+Frontend:
+
+HTML
+
+CSS
+
+JavaScript
+
+Backend:
+
+Node.js
+
+Express
+
+Biblioteca Ping (NPM)
+
+API REST com comunicação JSON
+
+Banco de Dados:
+
+MySQL
+
+Ferramentas de Teste e Documentação:
+
+Postman
+
+Git e GitHub
+
+Etapas do Desenvolvimento
+
+Modelagem do banco de dados e definição da arquitetura.
+
+Construção da API REST e implementação das rotas.
+
+Desenvolvimento da interface web.
+
+Integração entre frontend e backend.
+
+Testes e otimizações.
+
+Documentação final do projeto.
+
+Funcionalidades
+Requisitos Obrigatórios
+
+Cadastro de dispositivos.
+
+Listagem de dispositivos com status atualizado.
+
+Teste de conectividade via ping (latência e online/offline).
+
+Armazenamento de logs de testes.
+
+Consulta de histórico pela interface web.
+
+Requisitos Opcionais
+
+Alertas visuais avançados.
+
+Filtros por tipo de dispositivo.
+
+Indicação de última atualização de cada dispositivo.
+
+Integrantes da Equipe
+Nome	Função
+Bruno	Backend e banco de dados
+Eduardo	React Native e React Web
+Henrique	Documentação e testes
+Conclusão
+
+O FutebolNet Monitor apresenta uma solução eficiente para o acompanhamento da disponibilidade de dispositivos essenciais em um Centro de Treinamento esportivo. Combinando funcionalidades de inventário, testes de conectividade e histórico de desempenho, o sistema melhora a confiabilidade operacional e possibilita resposta rápida a falhas. Além disso, o projeto cumpre papel educacional ao integrar práticas de desenvolvimento full stack com conceitos fundamentais de redes e bancos de dados.
+
+Referências
+
+Node.js – https://nodejs.org
+
+Express.js – https://expressjs.com
+
+Biblioteca Ping (NPM) – https://www.npmjs.com/package/ping
+
+MySQL Documentation – https://dev.mysql.com/doc
+
+MDN Web Docs – https://developer.mozilla.org
