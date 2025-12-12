@@ -131,6 +131,15 @@ O FutebolNet Monitor fornece uma solução funcional para o monitoramento de dis
 
 -----------------------------
 
+Imagens do projeto
+
+
+<img width="1365" height="644" alt="image" src="https://github.com/user-attachments/assets/21db0192-1659-4841-87a3-03945e98bfc4" />
+
+<img width="1363" height="635" alt="image" src="https://github.com/user-attachments/assets/9f52d930-882b-47a8-a131-d76a3cb42093" />
+
+
+
 Referências
 
 Node.js Documentation – https://nodejs.org
